@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Peer Assessment App</title>
+    <meta name="author" content="Georgia" />
+    <meta name="description" content="" />
+
+    <link rel="stylesheet" href="test.css" type="text/css" />
+</head>
+
+
+<body>
+<footer id="page">
+    <div id="logo">
+        <h1><a href="test.html">Peer Assessment App</a></h1>
+    </div>
+    <div id="nav">
+        <ul>
+            <li><form action="admin.html" style="font-size: medium"><a href="admin.html"> Admin </a></form></li>
+            <li><form action="tutor.html" style="font-size: medium"> <a href="tutor.html">Tutor</a></form></li>
+            <li><form action="student.html" style="font-size: medium"> <a href="student.html">Student</a></form></li>
+        </ul>
+    </div>
+    <div id="p">
+        <br> As a student, you can upload a review form from your personal drive or fill an online peer review form and upload it instantly.
+        <br><br> Please log in using your university username and password to access the system.
+        <br><br> Notice: Only RGU students can log in to the application.
+    </div>
+    <div id="form">
+        <form method="post" action="login.php">
+
+        <label><b> Student's name:</b></label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <input type="text" name="username" placeholder="username" required><br><br>
+        <label><b>Student's password:</b></label>
+        <input type="password" name="password" placeholder="password" required> <br><br>
+        <form action="SHome.html"> <input type="Submit" value="Log in"></form>
+        <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+        </label>
+        <br><br>
+        <span class="psw">Forgot <a href="#">password?</a></span>
+        </form>
+
+        <div class="error"><?php //echo $error;?><?php //echo $username; echo
+$password;?></div>
+
+    </div>
+
+    <footer>
+        <br><br>
+
+            Webpage made by <a href="/" target="_blank">Georgia Ts</a>
+
+    </footer>
+</body>
+</html>
