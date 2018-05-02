@@ -1,0 +1,154 @@
+/*
+* multi-line comment
+*/
+p{ line-height: 1em; }
+h2, h3, h4{
+    color: purple;
+    font-weight: normal;
+    line-height: 1.1em;
+    margin: 0 0 .5em 0;
+}
+h1{
+    color: purple;
+    font-weight: bolder;
+    font-size: 40px;
+    font-kerning: inherit;
+    font-stretch: extra-condensed;
+}
+h2{ font-size: 1.5em; }
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover,
+a:active{ text-decoration: underline; }
+
+/* you can structure your code's white space so that it is as readable for when you come back in the future or for other people to read and edit quickly */
+
+body{
+
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0;
+    background-size: cover;
+    background-image: url("https://media-cdn.tripadvisor.com/media/photo-s/05/a0/9b/f5/robert-gordon-university.jpg");
+
+}
+#body{
+    font-family: arial; font-size: 80%; line-height: 1.2em; width: 100%; margin: 0;
+    background-size: 100%;
+    background-color: purple;
+
+}
+/* you can put your code all in one line like above */
+#page{ margin: 20px; }
+
+/* or on different lines like below */
+#logo{
+
+    margin-top: 5px;
+    font-family: georgia;
+    display: inline-block;
+
+}
+#p{
+    box-shadow: inset 0px 0px 400px 10px lightgrey;
+    height: 200px;
+    font-size: x-large;
+    font-style: inherit;
+    font-weight: bold;
+    font-family: Arial;
+    text-margin: auto;
+    margin-top: 80px;
+}
+#nav{
+    width: 90%;
+    display: inline-block;
+    text-align: right;
+    float: right;
+    margin-top: -30px;
+}
+#nav header{
+    width:60%;
+    display: inline-block;
+    text-align: center
+}
+#form{
+    box-shadow: inset 0px 0px 150px 20px lightgrey;
+    text-align: center;
+    object-position: bottom;
+    margin-top: 100px;
+}
+#nav ul{}
+#nav ul li{
+    display: inline-block;
+    height: 70px;
+    margin-top: -30px;
+}
+#nav ul li a{
+    padding: 30px;
+    background: purple;
+    color: white;
+}
+#nav ul li a:hover{
+    background-color: mediumpurple;
+    box-shadow: 0px 1px 1px #666;
+}
+#nav ul li a:active{ background-color: #ff8f00; }
+
+#input{
+    padding: 30px;
+    background: purple;
+    color: white;
+}
+
+#content{
+    margin: 30px 0;
+    background: white;
+    padding: 20px;
+    clear: both;
+}
+#footer{
+    border-bottom: 1px #ccc solid;
+    margin-bottom: 100px;
+    margin-top: 600px;
+
+}
+#footer p{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 80%;
+    color: grey;
+    margin-bottom: 40px;
+}
+
+.table-sortable tbody tr {
+    cursor: move;
+}
+
+body {
+    background-color: #eee;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 15px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 0.3em;
+
+}
+
+*[role="form"] h2 {
+    margin-left: 5em;
+    margin-bottom: 1em;
+}
+
+.colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    background-image: -webkit-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -moz-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: -o-linear-gradient(left, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+}

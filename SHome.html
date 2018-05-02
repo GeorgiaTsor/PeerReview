@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="test.css" type="text/css" />
+    <title>Peer Assessment App</title>
+</head>
+<body>
+<div id="logo">
+    <h1><a href="about.html" id="logoLink">Peer Assessment App</a></h1>
+</div>
+<div id="nav">
+    <ul>
+        <li><a href="https://campusmoodle.rgu.ac.uk/login/index.php" style="font-size: medium">Moodle</a></li>
+        <li><a href="contact.html" style="font-size: medium">Contact</a></li>
+    </ul>
+</div>
+<div id="p">
+    <br>Please select an action, either you will upload a file from your drive or you will fill in an online form.<br><br>
+    Accepted type of file .doc/.docx <br><br>
+    When pressing the button "Online Form" ypu are redirected to a new page to fill and submit an online form.
+</div>
+<div id="p">
+<div id="nav">
+    <ul style="margin-top: 100px; margin-right: 1100px">
+        <li><a href="Studentform.html" style="font-size: large">Online Form</a> </li>
+    </ul>
+</div>
+    <label style="font-size: medium; margin-left: 300px">Or Upload a file from your drive ------></label>
+    <form action="upload.php" method="post" enctype="multipart/form-data" style="margin-left: 600px; margin-top: -20px">
+        Select file to upload:
+        <input type="file" name="fileToUpload" id="fileToUpload">
+        <input type="submit" value="Upload File" name="submit">
+    </form>
+
+</div>
+</body>
+<div id="footer">
+    Webpage made by <a href="/" target="_blank">Georgia Ts</a>
+    <form action="about.html" style="font-size: xx-large; float: right;  "> <input type="Submit" value="Log Out"></form>
+
+</div>
+</html>

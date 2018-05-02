@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="test.css" type="text/css" />
+    <title>Peer Assessment App</title>
+    <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+</head>
+<body>
+<div id="logo">
+    <h1><a href="about.html" id="logoLink">Peer Assessment App</a></h1>
+</div>
+<div id="nav">
+    <ul>
+        <li><a href="SHome.html" style="font-size: medium">Home</a></li>
+        <li><a href="https://campusmoodle.rgu.ac.uk/login/index.php" style="font-size: medium">Moodle</a></li>
+        <li><a href="contact.html" style="font-size: medium">Contact</a></li>
+
+    </ul>
+</div>
+<div id="p">
+    <br>Please fill in the form by filling the names of your team members including yours.<br>
+    Also fill in all the matriculation numbers and give a grade for every attribute.<br>
+    The grade should be between 50 and 100 with 100 being the best grade you can give. <br>
+    Also put comments to support the grade you gave. Give grades also for yourself.
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script src="formcompletion.js"></script>
+
+<div class="container">
+    <div class="row clearfix">
+        <div class="col-md-12 table-responsive">
+            <table class="table table-bordered table-hover table-sortable" id="tab_logic", style="background: royalblue">
+                <thead>
+                <tr >
+                    <th class="text-center">
+                        Name
+                    </th>
+                    <th class="text-center">
+                        Matriculation Number
+                    </th>
+                    <th class="text-center">
+                        Ideas contribution
+                    </th>
+                    <th class="text-center">
+                        Administrative contribution
+                    </th>
+                    <th class="text-center">
+                        Technical contribution
+                    </th>
+                    <th class="text-center">
+                        Presentation contribution
+                    </th>
+                    <th class="text-center">
+                        Comments
+                    </th>
+                    <th class="text-center" style="border-top: 1px solid #ffffff; border-right: 1px solid #ffffff;">
+                    </th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr id='addr0' data-id="0" class="hidden">
+                    <td data-name="name">
+                        <input type="text" name='name0'  placeholder='Name' class="form-control"/>
+                    </td>
+                    <td data-name="matriculation">
+                        <input type="number" name='matriculation0' placeholder='Matriculation' class="form-control"/>
+                    </td>
+                    <td data-name="sel_ideas">
+                        <select name="sel_ideas">
+                            <option value"">Select Option</option>
+                            <option value"1">50</option>
+                            <option value"2">60</option>
+                            <option value"3">70</option>
+                            <option value"4">80</option>
+                            <option value"5">90</option>
+                            <option value"6">100</option>
+                        </select>
+                    </td>
+                    <td data-name="sel_admin">
+                        <select name="sel_admin">
+                            <option value"">Select Option</option>
+                            <option value"1">50</option>
+                            <option value"2">60</option>
+                            <option value"3">70</option>
+                            <option value"4">80</option>
+                            <option value"5">90</option>
+                            <option value"6">100</option>
+                        </select>
+                    </td>
+                    <td data-name="sel_technical">
+                        <select name="sel_technical">
+                            <option value"">Select Option</option>
+                            <option value"1">50</option>
+                            <option value"2">60</option>
+                            <option value"3">70</option>
+                            <option value"4">80</option>
+                            <option value"5">90</option>
+                            <option value"6">100</option>
+                        </select>
+                    </td>
+                    <td data-name="sel_present">
+                        <select name="sel_present">
+                            <option value"">Select Option</option>
+                            <option value"1">50</option>
+                            <option value"2">60</option>
+                            <option value"3">70</option>
+                            <option value"4">80</option>
+                            <option value"5">90</option>
+                            <option value"6">100</option>
+                        </select>
+                    </td>
+                    <td data-name="comments0">
+                        <textarea name="comments0" placeholder="Comments" class="form-control"></textarea>
+                    </td>
+                    <td data-name="del0">
+                        <button name="del0" class='btn btn-danger glyphicon glyphicon-remove row-remove'></button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <a id="add_row" class="btn btn-default pull-right">Add Row</a>
+</div>
+
+
+</body>
+<div id="footer">
+    Webpage made by <a href="/" target="_blank">Georgia Ts</a>
+    <form action="about.html" style="font-size: xx-large; float: right;  "> <input type="Submit" value="Log Out"></form>
+
+</div>
+</html>
